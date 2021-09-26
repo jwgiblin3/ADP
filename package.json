@@ -1,0 +1,24 @@
+{
+  "name": "adp",
+  "version": "1.0.0",
+  "description": "Code Test",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwgiblin3/ADP.git"
+  },
+  "author": "John W Giblin III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwgiblin3/ADP/issues"
+  },
+  "homepage": "https://github.com/jwgiblin3/ADP#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
