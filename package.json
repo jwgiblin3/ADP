@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/jwgiblin3/ADP#readme",
   "dependencies": {
+    "eslint-config-airbnb": "^18.2.1",
     "node-fetch": "^3.0.0"
   }
 }
